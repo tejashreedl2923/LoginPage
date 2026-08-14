@@ -67,7 +67,7 @@ Welcome, Tejashree
 
 ---
 
-##Application Flow
+## Application Flow
 
                 Login Page
                     |
@@ -148,7 +148,7 @@ LoginPage2/
 ```
 
 
-##Test Cases
+## Test Cases
 
 Test Case 1: Login Page Display
 
@@ -196,7 +196,7 @@ Status: Passed
 Screenshot:
 <img width="1361" height="715" alt="Screenshot 2026-08-14 235803" src="https://github.com/user-attachments/assets/086d0912-6733-41c9-8e91-630ffdd4bc94" />
 
-##Result
+## Result
 
 The NATURA Android Login and Welcome application was successfully developed.
 
@@ -204,6 +204,6 @@ The application provides a professional nature-inspired Login Page where the use
 
 The Logout functionality successfully returns the user to the Login Page and clears the previous activity from the back stack.
 
-##Conclusion
+## Conclusion
 
 The project successfully demonstrates the development of a functional Android application using Kotlin and XML. It combines user input, validation, activity navigation, Intent-based data transfer, dynamic content, and logout functionality with a professional nature-inspired user interface.
