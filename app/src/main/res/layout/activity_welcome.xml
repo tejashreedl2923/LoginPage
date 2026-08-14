@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcomeMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Nature Background -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/natura_background"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null" />
+
+    <!-- Dark Overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA031913" />
+
+    <!-- Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="28dp">
+
+            <!-- Leaf -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:text="🌿"
+                android:textSize="52sp" />
+
+            <!-- NATURA -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="NATURA"
+                android:textColor="#F1F8F3"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.12" />
+
+            <!-- Welcome Card -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:padding="28dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:background="@drawable/glass_card">
+
+                <!-- Greeting -->
+                <TextView
+                    android:id="@+id/welcomeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome, Tejashree!"
+                    android:textColor="#FFFFFF"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+                <!-- Subtitle -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="Your journey toward a better tomorrow starts here."
+                    android:textColor="#C2D4CA"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:lineSpacingExtra="4dp" />
+
+                <!-- Divider -->
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="25dp"
+                    android:background="#5BAA78" />
+
+                <!-- Quote -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="“Live simply, grow naturally.”"
+                    android:textColor="#B8D9C2"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:fontFamily="serif"
+                    android:textStyle="italic" />
+
+                <!-- Explore Button -->
+                <Button
+                    android:id="@+id/exploreButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="32dp"
+                    android:text="🌱  EXPLORE"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:backgroundTint="#4F9B6D" />
+
+                <!-- Discover Button -->
+                <Button
+                    android:id="@+id/discoverButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="14dp"
+                    android:text="🌿  DISCOVER"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:backgroundTint="#356F52" />
+
+                <!-- Logout -->
+                <TextView
+                    android:id="@+id/logoutText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:text="LOGOUT"
+                    android:textColor="#A5D6A7"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- Footer -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="20dp"
+                android:text="NATURE  •  BALANCE  •  A BRIGHTER YOU"
+                android:textColor="#9FBEAA"
+                android:textSize="10sp"
+                android:letterSpacing="0.12" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
