@@ -95,40 +95,57 @@ Welcome, Tejashree
                 Login Page
 
 
-##Project Structure
 
-LoginPage2
+## Project Structure
+
+```text
+LoginPage2/
 │
-├── app
-│   ├── manifests
+├── app/
+│   │
+│   ├── manifests/
 │   │   └── AndroidManifest.xml
 │   │
-│   ├── java
-│   │   └── com.example.loginpage
+│   ├── java/
+│   │   └── com.example.loginpage/
 │   │       ├── MainActivity.kt
 │   │       └── WelcomeActivity.kt
 │   │
-│   └── res
-│       ├── drawable
+│   └── res/
+│       │
+│       ├── drawable/
 │       │   ├── glass_card.xml
 │       │   ├── input_background.xml
 │       │   └── natura_background.jpg
 │       │
-│       ├── layout
+│       ├── layout/
 │       │   ├── activity_main.xml
 │       │   └── activity_welcome.xml
 │       │
-│       ├── mipmap
-│       ├── values
-│       └── xml
+│       ├── mipmap/
+│       │   └── Application icons
+│       │
+│       ├── values/
+│       │   ├── colors.xml
+│       │   ├── strings.xml
+│       │   └── themes.xml
+│       │
+│       └── xml/
+│           └── Backup and data extraction configuration
 │
-├── screenshots
-│   ├── login_page.png
-│   ├── welcome_page.png
-│   ├── validation.png
-│   └── logout.png
+├── gradle/
+│   ├── libs.versions.toml
+│   └── wrapper/
 │
+├── .gitignore
+├── build.gradle.kts
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle.kts
 └── README.md
+
+```
 
 
 ##Test Cases
